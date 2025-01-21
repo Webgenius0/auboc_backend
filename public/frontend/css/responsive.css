@@ -1,0 +1,2327 @@
+@media only screen and (min-width: 1600px) {
+  .container {
+    max-width: 1185px;
+  }
+
+  .sl-faqs-inner-wrapper {
+    margin-bottom: 100px;
+  }
+
+  .pl_136 {
+    margin-left: 17%;
+  }
+
+  .event-details-page-title {
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 1800px) {
+  .pl_136 {
+    margin-left: 19%;
+  }
+}
+
+
+
+
+
+/*custom */
+@media only screen and (max-width: 991px) {
+  .sl-contact-container {
+    flex-direction: column;
+  }
+
+  .sl-contact-container .sl-contact-left-site p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .sl-contact-container .sl-contact-left-site {
+    margin-bottom: 30px;
+  }
+
+  .sl-contact-container .sl-contact-right-site .sl-contact-form {
+    width: 450px;
+  }
+
+  .sl-faqs-section {
+    padding-top: 60px;
+  }
+
+  .contact-menu ul {
+    justify-content: center;
+  }
+
+  .sl-media-center-container {
+    padding-top: 100px;
+  }
+
+  .tab-content.sl-tab-content {
+    padding-top: 40px;
+  }
+
+  .sl-media-center-inner-container {
+    margin-top: 20px;
+  }
+
+  .footer-all-links {
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+
+  .bi-common-large-title.section-title {
+    line-height: 70px;
+    font-size: 60px;
+  }
+
+  .bi-common-large-subtitle {
+    line-height: 50px;
+    font-size: 36px;
+  }
+
+  .live-btn {
+    padding: 13px 40px;
+    font-size: 16px;
+  }
+
+  .bi-common-large-title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .bi-common-large-subtitle.section-subtitle {
+    line-height: 33px;
+    font-size: 24px;
+  }
+
+  .event-details-page-container {
+    padding-bottom: 60px;
+  }
+
+  footer {
+    padding: 90px 0 14px 0;
+  }
+
+  .sl-faqs-inner-wrapper {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .sl-download-container {
+    margin-top: 100px;
+  }
+
+  .counter-number {
+    line-height: 36px;
+    font-size: 36px;
+  }
+
+  .event-counter-box {
+    height: 100px;
+  }
+
+  .bottom-shape.forms-page {
+    padding-bottom: 40px;
+  }
+
+  .sl-contact-left-site.bi-for-humans-forms-left {
+    width: calc(100% - 245px);
+  }
+
+  .captcha-option {
+    width: 80px;
+  }
+
+  .re-captcha-container {
+    width: auto;
+  }
+
+  .bi-common-tab-content {
+    grid-template-columns: repeat(auto-fill, minmax(343px, 1fr));
+  }
+
+  .footer-title {
+    line-height: 75px;
+    font-size: 60px;
+  }
+
+  .sl-faqs-container .contact-menu {
+    margin-top: 40px;
+  }
+
+  .about-page-text-sm {
+    font-size: 20px;
+  }
+
+  .event-details-page-title {
+    font-size: 63px;
+    font-weight: 600;
+  }
+
+  .vertical--scroll--wrapper .verti--scroll {
+    gap: 20px;
+  }
+
+  .vertical--scroll--wrapper .verti--scroll {
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .vertical--scroll--wrapper {
+    flex-direction: column;
+  }
+
+  .second-frame-container-business {
+    flex-direction: column;
+  }
+
+  .common-small-scroll-box {
+    min-width: auto;
+    /* min-height: 100vh; */
+    width: 100%;
+    padding-bottom: 100px;
+    row-gap: 30px;
+  }
+
+  .vertical-scroll-frame-left {
+    padding-bottom: 100px;
+  }
+
+  .second-frame-container-business {
+    position: static;
+  }
+
+  .common-small-scroll-box {
+    min-height: auto;
+  }
+
+  .vertical--scroll--wrapper .verti--scroll {
+    min-height: auto;
+    justify-content: start;
+  }
+
+  .vertical--scroll--wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+  }
+
+  .vertical-scroll-frame-right {
+    position: static;
+  }
+
+  /* .smooth--section {
+    min-height: auto;
+  } */
+
+  .pl_136 {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .bi-common-route {
+    /* padding: 17px 15px; */
+  }
+
+  .common-small-scroll-box.box-one {
+    margin-right: 0px;
+  }
+
+  .pl_136 {
+    margin-left: 0px;
+    /* padding-left: 0; */
+    /* padding-right: 0; */
+  }
+
+  .vertical-scroll-frame-right {
+    margin-right: 0px;
+  }
+
+  .second-frame-container-get-the-app {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .get-the-app-why-zally-box.first-box {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .get-the-app-why-zally-box--two {
+    width: 500px;
+  }
+
+  .second-frame-container-get-the-app--two {
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .bi-for-humans-right {
+    width: 240px;
+  }
+
+  .vertical-scroll-frame-left {
+    padding-bottom: 30px;
+  }
+
+  .get-the-app-why-zally-box--two {
+    min-height: 173px;
+  }
+
+  .get-the-app-why-zally-box--two-right {
+    gap: 5px;
+  }
+
+  .get-the-app-why-zally-box--two-text-bottom {
+    font-size: 20px;
+  }
+
+  .get-the-app-why-zally-box--two {
+    min-height: 100%;
+  }
+
+  .get-the-app-why-zally-box--two {
+    margin-top: 40px;
+  }
+
+  .get-the-app-why-zally-box--two-text-top {
+    font-size: 25px;
+  }
+
+  .bi-gif-logo.gif-5 {
+    left: 0%;
+    top: -30%;
+  }
+
+  .get-the-app-why-zally-box--two {
+    width: 700px;
+  }
+
+  .vertical-scroll-frame-left {
+    max-width: 100%;
+    gap: 20px;
+  }
+
+  .vertical-scroll-frame-right>svg {
+    display: none;
+  }
+
+  .bi-gif-logo.gif-4 {
+    top: -27%;
+    left: 20px;
+  }
+
+  .long--arrow--wrapper .horizontal-arrow {
+    display: none;
+  }
+
+  .bi-gif-logo {
+    animation-play-state: paused;
+    position: unset;
+  }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 767px) {
+  .event-and-blog-section{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sl-contact-container .sl-contact-left-site h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  .sl-contact-container .sl-contact-left-site {
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .sl-contact-container .sl-contact-right-site .sl-contact-form {
+    padding: 25px 25px;
+    width: auto;
+  }
+
+  .contact-menu ul {
+    justify-content: center;
+  }
+
+  .sl-contact-section {
+    padding-top: 60px;
+  }
+
+  .bottom-shape span {
+    font-size: 16px;
+  }
+
+  .sl-faqs-section {
+    padding-top: 40px;
+  }
+
+  .sl-faqs-search-wrapper input {
+    height: 50px;
+  }
+
+  .sl-faqs-inner-wrapper .accordion-header button {
+    font-size: 18px;
+  }
+
+  .sl-download-container .contact-menu {
+    margin-bottom: 40px;
+  }
+
+  .sl-media-center-title h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    line-height: 60px;
+  }
+
+  .sl-media-center-container {
+    padding-top: 80px;
+  }
+
+  .sl-media-center-title p {
+    font-size: 16px;
+  }
+
+  .sl-media-center-inner-container.style-2 {
+    margin-top: 40px;
+  }
+
+  .sl-media-center-item p {
+    font-size: 16px;
+  }
+
+  .sl-media-center-item a {
+    font-size: 16px;
+  }
+
+  .sl-media-center-item {
+    flex-direction: column;
+  }
+
+  .bi-common-large-title.section-title {
+    line-height: 72px;
+    font-size: 48px;
+  }
+
+  .bi-common-large-subtitle.section-subtitle {
+    line-height: 33px;
+    font-size: 20px;
+  }
+
+  .bi-common-large-subtitle {
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  .footer-title {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 40px;
+  }
+
+  .available-text {
+    font-size: 20px;
+  }
+
+  .footer-contact-form {
+    flex-direction: column;
+    align-items: start;
+    margin-top: 40px;
+  }
+
+  .footer-link-text {
+    line-height: 24px;
+    font-size: 16px;
+  }
+
+  .bi-common-container {
+    padding: 40px 0px;
+  }
+
+  footer {
+    padding: 90px 0 14px 0;
+  }
+
+  .footer-all-links {
+    padding: 40px 0px;
+  }
+
+  .footer-socials-icons {
+    margin-bottom: 10px;
+  }
+
+  .event-details-page-title {
+    font-size: 38px;
+    line-height: 60px;
+  }
+
+  .event-details-page-subtitle {
+    font-size: 24px;
+  }
+
+  .event-page-image-section {
+    height: 300px;
+  }
+
+  .event-details-page-container {
+    padding-bottom: 40px;
+  }
+
+  .bi-common-large-title {
+    font-size: 40px;
+    line-height: 51px;
+  }
+
+  .bi-gif-logo.gif-1 {
+    top: -23px;
+    left: 165px;
+  }
+
+  .for-humans-home-common-content-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .bi-for-humans-left,
+  .bi-for-humans-left.why-zally-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .bi-gif-logo.gif-1 {
+    top: -130px;
+    left: 0px;
+  }
+
+  .bi-common-container-for-humans {
+    padding: 70px 0px 60px 0;
+  }
+
+  .bi-gif-logo.gif-2 {
+    left: 0;
+    top: 100px;
+  }
+
+  .bi-for-humans-right {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: fit-content;
+
+  }
+
+  .bi-gif-logo.gif-3 {
+    left: 0;
+    top: 100px;
+  }
+
+  .sl-faqs-inner-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .sl-download-container {
+    margin-top: 80px;
+  }
+
+  .counter-number {
+    line-height: 22px;
+    font-size: 26px;
+  }
+
+  .event-page-counter-container {
+   
+    column-gap: 15px;
+    padding: 10px 32px;
+  }
+
+  .sl-blog-tab-btn-wrapper {
+    margin-bottom: 15px;
+  }
+
+  .bi-event-page-subtitle {
+    line-height: 32px;
+    font-size: 24px;
+  }
+
+  .tab-section-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .recaptcha-bottom {
+    padding: 15px 0px;
+    width: 100%;
+  }
+
+  .captcha-option {
+    width: 80px;
+    margin: 0 auto;
+  }
+
+  .re-captcha-container {
+    margin-top: 15px;
+  }
+
+  .recaptcha-box-bottom-text {
+    margin-top: 15px;
+  }
+
+  .sl-logo-inner-container {
+    padding-bottom: 0px;
+  }
+
+  .blog-card-description {
+    line-height: 28px;
+    font-size: 20px;
+  }
+
+  .bi-common-route {
+    padding: 10px 0px;
+    font-size: 16px;
+  }
+
+  .bi-common-container.style-2 {
+    min-height: 100vh !important;
+  }
+
+  .bi-common-btns {
+    gap: 40px;
+  }
+
+  .footer-contents-container {
+    padding: 0px 17px;
+  }
+
+  /* mobile responsive  for header*/
+
+  .phone-header-section {
+    margin-bottom: 0px;
+  }
+
+  .phone-header-logo img {
+    max-width: 70px;
+  }
+
+  .phone-header-container {
+    padding-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .phone-menu-wrapper {
+    background-color: #ffe6f6;
+    text-align: center;
+    width: 174px;
+    position: relative;
+  }
+
+  .phone-menu-wrapper .phone-menu {
+    position: absolute;
+    background-color: #ffe6f6;
+    width: 100%;
+    z-index: 99999;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  }
+
+  .phone-menu-wrapper ul li {
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone-menu-wrapper ul li a {
+    color: var(--navy--blue);
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .menu-button ul li.menu-title {
+    color: var(--navy--blue);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-button ul li span svg {
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+  }
+
+  li.menu-title a {
+    color: var(--navy--blue);
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .menu-pink {
+    background-color: #ffa3ca;
+  }
+
+  .menu-button ul li span {
+    margin-left: 10px;
+  }
+
+  .header--content--wrapper {
+    display: none;
+  }
+
+  .fa-angle-down {
+    transition: all 0.5s ease-in-out !important;
+    -webkit-transition: all 0.5s ease-in-out !important;
+    -moz-transition: all 0.5s ease-in-out !important;
+    -ms-transition: all 0.5s ease-in-out !important;
+    -o-transition: all 0.5s ease-in-out !important;
+  }
+
+  .fa-angle-down {
+    transition: all 0.5s ease-in-out !important;
+    -webkit-transition: all 0.5s ease-in-out !important;
+    -moz-transition: all 0.5s ease-in-out !important;
+    -ms-transition: all 0.5s ease-in-out !important;
+    -o-transition: all 0.5s ease-in-out !important;
+  }
+
+  .common-btn {
+    padding: 10px 40px;
+  }
+
+  .footer-title {
+    padding-top: 0;
+  }
+
+  .certification-img {
+    bottom: 50px;
+  }
+
+  .bi-gif-logo.gif-2.style-3 {
+    left: 0;
+    /* top: 180px; */
+  }
+
+  .about-page-text-sm {
+    font-size: 18px;
+  }
+
+  .event-page-image-btns {
+    bottom: 0px;
+  }
+
+  .bi-tab-container {
+    gap: 40px;
+  }
+
+  .bi-common-tab-content {
+    gap: 30px;
+  }
+
+  .event-card-image img {
+    object-fit: cover;
+  }
+
+  .sl-download-item {
+    margin-bottom: 30px;
+  }
+
+  .event-common-tab {
+    line-height: 40px;
+    font-size: 18px;
+  }
+
+  .bi-common-large-title.section-title {
+    line-height: 62px;
+    font-size: 40px;
+  }
+
+  .sl-contact-container {
+    padding-top: 0px;
+  }
+
+  .bi-team-member-box {
+    align-items: center;
+  }
+
+  .bi-team-member-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .bi-team-member-name {
+    font-size: 40px;
+  }
+
+  .menu-button.\.menu-btn-icon-rotate ul li span svg {
+    transform: rotate(180deg) !important;
+    -webkit-transform: rotate(180deg) !important;
+    -moz-transform: rotate(180deg) !important;
+    -ms-transform: rotate(180deg) !important;
+    -o-transform: rotate(180deg) !important;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
+
+  .common-small-scroll-box {
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .why-zelly-box-text-lg {
+    line-height: 50px;
+    font-size: 35px;
+  }
+
+  .bi-gif-logo.gif-2 {
+    left: 0;
+    top: 159px;
+  }
+
+  .get-the-app-why-zally-box--two {
+    width: 500px;
+  }
+
+
+  /* for business and human forms starts */
+
+  .recaptcha-bottom svg {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 15px;
+    top: -17px;
+  }
+
+  /* for business and human forms ends */
+
+
+  .event-details-page-contents-container{
+  gap: 20px;
+}
+
+}
+
+@media only screen and (max-width: 575px) {
+  .legal-des-title, .last-update-date{
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .sl-contact-section {
+    padding-top: 40px;
+  }
+
+  .sl-faqs-search-wrapper {
+    width: auto;
+  }
+
+  .sl-download-item .sl-download-image {
+    height: 378px;
+  }
+
+  .about-page-text-sm {
+    font-size: 16px;
+  }
+
+  .available-text {
+    font-size: 16px;
+  }
+
+  .footer-input {
+    min-width: 258px;
+  }
+
+  .event-page-image-section {
+    height: 250px;
+  }
+
+  .live-btn {
+    padding: 7px;
+    font-size: 16px;
+  }
+
+  .event-page-image-btns {
+    padding: 17px 10px;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .event-details-page-subtitle {
+    font-size: 16px;
+  }
+
+  .bi-tab-btns-container {
+    flex-wrap: nowrap;
+    width: 500px;
+    justify-content: start;
+  }
+
+  .bi-common-tab-btn {
+    padding: 15px 20px;
+  }
+
+  .sl-blog-tab-btn-wrapper {
+    overflow-x: auto;
+    width: 100%;
+  }
+
+
+  .bi-event-page-subtitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .counter-text {
+    font-size: 16px;
+  }
+
+  .event-page-counter-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .event-counter-box {
+    width: 45%;
+  }
+
+  .event-counter-box {
+    height: 70px;
+  }
+
+  .counter-number {
+    line-height: 22px;
+    font-size: 22px;
+  }
+
+  .event-counter-box {
+    height: 65px;
+  }
+
+  .counter-text {
+    line-height: 14px;
+  }
+
+  .bi-common-tab-content {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  }
+
+  .tab-section-container {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+
+  .event-description {
+    padding: 20px;
+  }
+
+  .blog-card-description {
+    line-height: 28px;
+    font-size: 16px;
+  }
+
+  .mobile-header img {
+    max-width: 80px;
+  }
+
+  .bi-gif-logo.gif-2.style-4 {
+    top: 80px;
+  }
+
+
+  .get-the-app-why-zally-box {
+    width: 100%;
+    max-width: 425px;
+    padding: 25px 20px;
+  }
+
+  .get-the-app-why-zally-box.first-box {
+    margin-bottom: 0px;
+  }
+
+  .get-the-app-why-zally-box.first-box {
+    margin: 15px;
+    margin-bottom: 0px;
+  }
+
+  .get-the-app-why-zally-box--two {
+    width: 424px;
+  }
+
+
+
+
+}
+
+/* *********************************************************************************************************
+  START COMMON BREACK POIN
+  ************************************************************************************************************* */
+@media only screen and (min-width: 1200px) and (max-width: 1250px) {
+  svg.business-bar-3 {
+    height: 44px;
+    padding-left: -100px;
+  }
+}
+
+/* laptop devices */
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+  .bi-common-large-title {
+    line-height: 115px;
+    font-size: 100px;
+  }
+
+  .bi-common-large-title.section-title {
+    font-size: 97px;
+    line-height: 115px;
+  }
+
+  .bi-gif-logo.gif-1 {
+    top: -24px;
+    left: 227px;
+  }
+
+  .bi-gif-logo.gif-2 {
+    left: -15px;
+    top: -100px;
+  }
+
+  .bi-gif-logo.gif-3 {
+    left: -22px;
+    top: -84px;
+  }
+
+  .bi-gif-logo.gif-2.style-4 {
+    left: -15px;
+    top: -73px;
+  }
+
+  .event-card-image {
+    height: 330px;
+  }
+
+  /* 27-9-24 */
+
+  .bi-for-humans-left {
+    max-width: 688px;
+  }
+
+  .bi-common-large-subtitle {
+    line-height: 60px;
+  }
+
+  .bi-common-large-subtitle {
+    font-size: 45px;
+  }
+
+  .event-details-page-title {
+    font-size: 61px;
+    font-weight: 600;
+  }
+
+  .sl-contact-container .sl-contact-left-site h2 {
+    font-size: 100px;
+  }
+
+  .bi-gif-logo.gif-5 {
+    left: 0%;
+    top: -15%;
+  }
+
+  .vertical-scroll-frame-right {
+    margin-right: 0px;
+  }
+
+  .get-the-app-why-zally-box.first-box {
+    margin-right: 60px;
+  }
+
+  .vertical--scroll--wrapper .verti--scroll {
+    gap: 80px;
+  }
+
+  .bi-gif-logo.star-gift {
+    left: 5%;
+    top: 49px;
+  }
+
+  .vertical--scroll--wrapper .verti--scroll {
+    gap: 50px;
+  }
+
+  .bi-common-large-title.section-title {
+    font-size: 79px;
+    line-height: 97px;
+  }
+}
+
+/* large tablet devices */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .sl-contact-container .sl-contact-left-site h2 {
+    font-size: 100px;
+  }
+
+  .sl-media-center-title h2 {
+    font-size: 76px;
+    margin-bottom: 10px;
+  }
+
+  .sl-media-center-container {
+    padding-top: 100px;
+  }
+
+  .bi-common-large-title.section-title {
+    line-height: 70px;
+    font-size: 76px;
+  }
+
+  .bi-common-large-subtitle {
+    line-height: 50px;
+    font-size: 36px;
+  }
+
+  .footer-title {
+    line-height: 90px;
+    font-size: 76px;
+    padding-bottom: 100px;
+    padding-top: 60px;
+  }
+
+  .footer-all-links {
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+
+  .event-details-page-title {
+    font-size: 63px;
+  }
+
+  .bi-common-large-title.section-title {
+    line-height: 80px;
+    font-size: 56px;
+  }
+
+  .bi-common-large-title {
+    font-size: 76px;
+    line-height: 90px;
+  }
+
+  .bi-gif-logo.gif-1 {
+    top: -24px;
+    left: 227px;
+  }
+
+  .bi-gif-logo.gif-2 {
+    left: -15px;
+    top: -125px;
+  }
+
+  .bi-gif-logo.gif-3 {
+    left: -22px;
+    top: -84px;
+  }
+
+  .bi-gif-logo.gif-2.style-4 {
+    left: -15px;
+    top: -89px;
+  }
+
+  .event-common-tab {
+    font-size: 22px;
+    line-height: 42px;
+  }
+
+  footer {
+    padding: 50px 0 14px 0;
+  }
+
+  .pl-136 {
+    padding-left: 54px;
+  }
+
+  .bi-for-humans-left {
+    max-width: 583px;
+  }
+
+  .sl-download-container {
+    margin-top: 77px;
+    margin-bottom: 40px;
+  }
+
+  .sl-download-container .contact-menu {
+    margin-bottom: 40px;
+  }
+
+  .event-details-page-title {
+    font-size: 63px;
+    font-weight: 600;
+  }
+
+  .vertical--scroll--wrapper .verti--scroll {
+    gap: 40px;
+  }
+
+  svg.business-bar-3 {
+    height: 44px;
+  }
+
+  .common-small-scroll-box.box-one {
+    margin-right: 0px;
+  }
+
+  .vertical-scroll-frame-right {
+    margin-right: 0;
+  }
+
+  .get-the-app-why-zally-box.first-box {
+    margin-right: 50px;
+  }
+
+  .bi-gif-logo.gif-5 {
+    left: 0;
+    top: -20%;
+  }
+
+  .why-zelly-box-text-lg {
+    font-size: 40px;
+  }
+
+  .get-the-app-why-zally-box--two-right {
+    width: 370px;
+  }
+
+  .second-frame-container-get-the-app--two {
+    gap: 52px;
+  }
+
+  .bi-gif-logo.gif-4 {
+    top: -10px;
+    left: 100%;
+  }
+
+  .bi-gif-logo.gif-5 {
+    left: 58px;
+    top: 113px;
+  }
+
+
+  /* why zally page starts */
+  .pl_136 {
+    margin-left: 28px;
+  }
+
+  .for-humans-home-common-content-container {
+    gap: 40px;
+  }
+
+  .why-zally-box-title {
+    color: var(--navy--blue, #14012C);
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .common-small-scroll-box.why-zally-box {
+    row-gap: 30px;
+    width: 370px;
+  }
+
+  /* why zally page ends */
+
+  .second-frame-container-get-the-app--two.for-992{
+    justify-content: flex-end;
+  }
+
+
+  #gif-55{
+    left: -15px;
+    top: -125px;
+  }
+.get-the-app-why-zally-box{
+  min-height: 496px;
+  max-width: 424px;
+}
+}
+
+/* medium tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sl-contact-container .sl-contact-left-site h2 {
+    font-size: 48px;
+  }
+
+  .sl-contact-container .sl-contact-left-site p {
+    font-size: 20px;
+  }
+
+  .contact-menu ul li a {
+    padding: 16px 20px;
+  }
+
+  .sl-faqs-search-wrapper input {
+    height: 60px;
+  }
+
+  .sl-download-container .contact-menu {
+    margin-bottom: 40px;
+  }
+
+  .sl-media-center-title h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  .sl-media-center-container {
+    padding-top: 60px;
+  }
+
+  .sl-media-center-title p {
+    font-size: 20px;
+  }
+
+  .sl-media-center-inner-container.style-2 {
+    margin-top: 60px;
+  }
+
+  .sl-media-center-item p {
+    font-size: 24px;
+  }
+
+  .sl-media-center-item a {
+    font-size: 24px;
+  }
+
+  .bi-gif-logo.gif-1 {
+    top: -40px;
+    left: 141px;
+  }
+
+  .bi-gif-logo.gif-2 {
+    left: -15px;
+    top: -150px;
+  }
+
+  .bi-gif-logo.gif-3 {
+    left: -22px;
+    top: -134px;
+  }
+
+  .event-page-image-section {
+    height: 300px;
+  }
+
+  .event-common-tab {
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .event-card-image {
+    height: 274px;
+  }
+
+  /* responsive */
+  .bi-common-route {
+    padding: 17px 15px;
+    font-size: 16px;
+  }
+
+  .header--content--wrapper {
+    align-items: center;
+  }
+
+  .event-details-page-title {
+    font-size: 51px;
+    line-height: 75px;
+  }
+
+  .common-btn {
+    padding: 16px 40px;
+  }
+
+  .pl_136 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .common-small-scroll-box.why-zally-box {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .for-humans-home-common-content-container {
+    flex-direction: column;
+  }
+
+  .bi-for-humans-left.why-zally-left {
+    width: 100%;
+  }
+
+  /* why zally page starts */
+  .common-small-scroll-box.why-zally-box {
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    width: 450px;
+  }
+
+  .why-zally-box-title {
+    color: var(--navy--blue, #14012C);
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px;
+  }
+
+  .vertical-scroll-frame-left {
+    width: 100%;
+    max-width: 720px;
+  }
+
+  .pl_136 {
+    padding: 0 36px;
+  }
+
+  .vertical-scroll-frame-left.business {
+    max-width: 720px;
+  }
+
+  /* why zally page starts */
+
+  /* for business and humans home starts */
+
+  .bi-gif-logo {
+    animation-play-state: paused;
+    position: unset;
+  }
+
+  .bi-for-humans-left {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .for-humans-home-common-content-container {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .bi-for-humans-right {
+    width: 274px;
+  }
+
+  /* for business and humans home ends */
+
+
+  .common-small-scroll-box,
+  .common-small-scroll-box.why-zally-box {
+    max-width: 450px;
+  }
+  .vertical-scroll-frame-right.how-does-zally {
+    margin-right: 0px;
+}
+.vertical-scroll-frame-left.get-the-app {
+    max-width: 720px;
+}
+
+.get-the-app-why-zally-box--two {
+    max-width: 470px;
+}
+
+  .event-page-counter-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 0;
+  }
+.event-counter-box{
+  width: 100%;
+  border-radius: 15px;
+  height: fit-content;
+  padding: 20px 10px;
+}
+
+}
+
+/* small tablet devices */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .common-small-scroll-box.why-zally-box {
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    width: 450px;
+  }
+
+  .why-zally-box-title {
+    color: var(--navy--blue, #14012C);
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px;
+  }
+
+  .vertical-scroll-frame-left {
+    width: 100%;
+    max-width: 540px;
+  }
+
+  .pl_136 {
+    padding: 0 30px;
+  }
+
+  .vertical-scroll-frame-left.business {
+    max-width: 540px;
+  }
+
+  /* how it works business and humans starts */
+  .get-the-app-why-zally-box--two--detect {
+    width: 100%;
+    max-width: 540px;
+    padding: 0 36px;
+  }
+  .detect-user-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.get-the-app-why-zally-box--two--bottom-box {
+
+  padding: 13px;
+  gap: 12px;
+  border-radius: 16px;
+
+
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 30px;
+}
+.vertical-scroll-frame-left.how-does-zally {
+  min-width: unset !important;
+  max-width: 540px !important;
+  margin-right: 0px;
+}
+.vertical-scroll-frame-right.how-does-zally {
+  margin-right: 0px;
+}
+.bi-for-humans-left.how-it-work-business, .vertical-scroll-frame-left.how-it-works-business {
+  max-width: 540px;
+}
+  /* how it works business and humans starts */
+
+.vertical-scroll-frame-left.get-the-app {
+    max-width: 540px;
+}
+
+  .event-page-counter-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 0;
+  }
+.event-counter-box{
+  width: 100%;
+  border-radius: 15px;
+  height: fit-content;
+  padding: 20px 10px;
+}
+
+}
+
+/* large mobile devices */
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+  .sl-contact-container .sl-contact-left-site p {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .sl-contact-container .sl-contact-left-site {
+    margin-bottom: 10px;
+  }
+
+  .bi-gif-logo.gif-2 {
+    top: 141px;
+    left: 0;
+  }
+
+  .sl-faqs-inner-wrapper .accordion-body p {
+    font-size: 14px;
+  }
+
+  .bi-gif-logo.gif-3 {
+    left: 0;
+    top: 163px;
+  }
+
+  .common-btn {
+    padding: 9px 30px;
+  }
+
+  .contact-menu {
+    margin-bottom: 20px;
+  }
+
+  .sl-media-center-title {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .nav-pills {
+    justify-content: center;
+  }
+
+  .event-details-page-title {
+    font-size: 33px;
+    line-height: 56px;
+  }
+
+  .common-small-scroll-box {
+    width: 414px;
+  }
+
+  .pl_136 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  /* why zally page start */
+  .smooth--section--content {
+    gap: 20px;
+  }
+
+  .vertical-scroll-frame-right {
+    padding: 0 12px;
+    width: 100%;
+  }
+
+  .common-small-scroll-box,
+  .common-small-scroll-box.why-zally-box {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding-bottom: 40px;
+  }
+
+  .why-zally-box-title {
+    color: var(--navy--blue, #14012C);
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+  }
+
+  .why-zally-box-title .currency {
+    font-size: 25px;
+  }
+
+  .why-zally-box-title .value-point {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    line-height: 22px;
+  }
+
+  .vertical-section-text {
+    color: var(--navy--blue);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 30px;
+  }
+
+  .second-frame-container-business {
+    padding: 0 12px;
+  }
+
+  .bi-for-humans-left.why-zally-left {
+    width: 100%;
+  }
+
+  .bi-for-humans-right.why-zally-right {
+    width: 100%;
+    padding: 0 12px;
+    justify-content: flex-start;
+  }
+
+  .vertical-scroll-frame-left {
+    width: 100%;
+  }
+
+  /* why zally page end */
+  /* how it works business and humans starts */
+  .get-the-app-why-zally-box--two--detect {
+    width: 100%;
+  }
+  .detect-user-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.get-the-app-why-zally-box--two--bottom-box {
+
+  padding: 13px;
+  gap: 12px;
+  border-radius: 16px;
+
+
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 30px;
+}
+.vertical-scroll-frame-left.how-does-zally {
+  min-width: 100% !important;
+  margin-right: 0px;
+}
+.vertical-scroll-frame-right.how-does-zally {
+  margin-right: 0px;
+}
+  /* how it works business and humans starts */
+
+ .sl-contact-section, .sl-download-section, .sl-faqs-section {
+    padding-top: 80px;
+  }
+
+  .event-page-counter-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    
+  }
+.event-counter-box{
+  width: 100%;
+  border-radius: 15px;
+  height: fit-content;
+  padding: 20px 10px;
+}
+
+
+}
+
+/* mobile devices */
+@media only screen and (min-width: 375px) and (max-width: 479px) {
+  .sl-contact-container .sl-contact-left-site p {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+
+  .sl-contact-container .sl-contact-right-site .sl-contact-form {
+    padding: 17px 18px;
+  }
+
+  .sl-faqs-inner-wrapper .accordion-header button {
+    font-size: 17px;
+  }
+
+  .sl-download-item .sl-download-image {
+    height: 385px;
+  }
+
+  .bi-gif-logo.gif-3 {
+    left: 0%;
+  }
+
+  .bi-gif-logo.gif-2.style-3 {
+    left: 0%;
+    top: 20px;
+  }
+
+  .bi-gif-logo.gif-5 {
+    left: 13%;
+  }
+
+  .bi-gif-logo.gif-2.style-4 {
+    left: 74%;
+    top: -8px;
+  }
+
+  .sl-faqs-inner-wrapper .accordion-body p {
+    font-size: 14px;
+  }
+
+  .common-btn {
+    padding: 16px 25px;
+  }
+
+  .bi-common-btns {
+    gap: 10px;
+  }
+
+  .bi-gif-logo.gif-2.style-4 {
+    left: 0;
+    top: 60px;
+  }
+
+  .sl-media-center-title {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .nav-pills {
+    justify-content: center;
+  }
+
+  .footer-title {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 40px;
+  }
+
+  .bi-common-large-title.section-title {
+    line-height: 54px;
+    font-size: 40px;
+  }
+
+  .footer-subheading {
+    font-size: 16px;
+  }
+
+  .event-details-page-title {
+    font-size: 31px;
+    line-height: 50px;
+  }
+
+  .event-page-image-section {
+    height: 220px;
+  }
+
+  .event-type {
+    display: none;
+  }
+
+  .common-btn {
+    padding: 9px 25px;
+  }
+
+  .event-common-tab {
+    line-height: 38px;
+    font-size: 18px;
+  }
+
+  .bi-common-large-title.section-title {
+    font-size: 39px;
+  }
+
+  .footer-title {
+    line-height: 54px;
+  }
+
+  .common-btn {
+    font-size: 15px;
+  }
+
+  .common-small-scroll-box {
+    width: 414px;
+  }
+
+  .pl_136 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .common-small-scroll-box {
+    width: 324px;
+  }
+
+  .bi-gif-logo.gif-2.style-3 {
+    left: 0%;
+    top: 120px;
+  }
+
+  .get-the-app-why-zally-box--two {
+    width: 330px;
+  }
+
+  .get-the-app-why-zally-box--two-left {
+    height: 38px;
+  }
+
+
+  /* why zally page start */
+  .smooth--section--content {
+    gap: 20px;
+  }
+
+  .vertical-scroll-frame-right {
+    padding: 0 12px;
+    width: 100%;
+  }
+
+  .common-small-scroll-box,
+  .common-small-scroll-box.why-zally-box {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding-bottom: 40px;
+  }
+
+  .why-zally-box-title {
+    color: var(--navy--blue, #14012C);
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+  }
+
+  .why-zally-box-title .currency {
+    font-size: 25px;
+  }
+
+  .why-zally-box-title .value-point {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    line-height: 22px;
+  }
+
+  .vertical-section-text {
+    color: var(--navy--blue);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 30px;
+  }
+
+  .second-frame-container-business {
+    padding: 0 12px;
+  }
+
+  .bi-for-humans-left.why-zally-left {
+    width: 100%;
+  }
+
+  .bi-for-humans-right.why-zally-right {
+    width: 100%;
+    padding: 0 12px;
+    justify-content: flex-start;
+  }
+
+  /* why zally page end */
+
+  /* how it works business and humans starts */
+  .get-the-app-why-zally-box--two--detect {
+    width: 100%;
+  }
+  .detect-user-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.get-the-app-why-zally-box--two--bottom-box {
+
+  padding: 13px;
+  gap: 12px;
+  border-radius: 16px;
+
+
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 30px;
+}
+.vertical-scroll-frame-left.how-does-zally {
+  min-width: 100% !important;
+  margin-right: 0px;
+}
+.vertical-scroll-frame-right.how-does-zally {
+  margin-right: 0px;
+}
+  /* how it works business and humans starts */
+ .sl-contact-section, .sl-download-section, .sl-faqs-section {
+    padding-top: 80px;
+  }
+
+  .event-page-counter-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    
+  }
+.event-counter-box{
+  width: 100%;
+  border-radius: 15px;
+  height: fit-content;
+  padding: 20px 10px;
+}
+
+}
+
+/* extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .get-the-app-why-zally-box--two-left {
+    height: 30px;
+  }
+
+  .sl-contact-container .sl-contact-left-site p {
+
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .sl-contact-container .sl-contact-left-site {
+    padding: 10px;
+  }
+
+  .contact-menu ul li a {
+    padding: 10px 17px;
+    font-size: 16px;
+  }
+
+  .sl-faqs-inner-wrapper .accordion-header button {
+    font-size: 17px;
+  }
+
+  .sl-download-item .sl-download-image {
+    height: 400px;
+  }
+
+  .bi-common-large-title {
+    font-size: 45px;
+  }
+
+  .bi-gif-logo.gif-3 {
+    left: 0%;
+  }
+
+  .bi-gif-logo.gif-2.style-3 {
+    /* left: 68%; */
+    top: 24px;
+  }
+
+  .bi-gif-logo.gif-2.style-4 {
+    left: 70%;
+    top: -8px;
+  }
+
+  .footer-title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .sl-faqs-inner-wrapper .accordion-body p {
+    font-size: 14px;
+  }
+
+  .event-card-image {
+    height: 220px;
+  }
+
+  .bi-common-btns {
+    gap: 10px;
+  }
+
+  .common-btn {
+    padding: 14px 17px;
+  }
+
+  .common-btn {
+    font-size: 16px;
+  }
+
+  .certification-img {
+    bottom: 75px;
+  }
+
+  .bi-gif-logo.gif-2.style-4 {
+    left: 0;
+    top: 55px;
+  }
+
+  .sl-media-center-title {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .nav-pills {
+    justify-content: center;
+  }
+
+  .footer-title {
+    font-size: 34px;
+    line-height: 54px;
+    margin-bottom: 40px;
+  }
+
+  .bi-common-large-title.section-title {
+    line-height: 60px;
+    font-size: 40px;
+  }
+
+  .footer-subheading {
+    font-size: 16px;
+  }
+
+  .bi-common-large-title.section-title {
+    line-height: 54px;
+    font-size: 34px;
+  }
+
+  .event-type {
+    display: none;
+  }
+
+  .common-btn {
+    padding: 9px 25px;
+  }
+
+  .event-time-line,
+  .event-type {
+    padding: 14px;
+  }
+
+  .event-details-page-title {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .event-common-tab {
+    line-height: 38px;
+    font-size: 18px;
+  }
+
+  .event-page-counter-container {
+    column-gap: 7px;
+  }
+
+  .bi-common-large-title.section-title {
+    line-height: 48px;
+    font-size: 36px;
+  }
+
+  .common-btn {
+    font-size: 15px;
+  }
+
+  .common-btn {
+    padding: 8px 18px;
+  }
+
+  .bi-team-member-about {
+    font-size: 18px;
+  }
+
+  .bi-team-member-name {
+    font-size: 36px;
+  }
+
+  .vertical-section-img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .common-small-scroll-box {
+    width: 276px;
+  }
+
+  .pl_136 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .why-zelly-box-text-lg {
+    line-height: 50px;
+    font-size: 30px;
+  }
+
+  .why-zally-box-text-sm {
+    font-size: 20px;
+  }
+
+  .get-the-app-why-zally-box--two {
+    width: 270px;
+  }
+
+  .get-the-app-why-zally-box--two-left {
+    min-width: 35px;
+    height: 30px;
+    margin-top: 10px;
+  }
+
+  .get-the-app-why-zally-box--two-text-bottom {
+    font-size: 18px;
+  }
+
+  .bi-gif-logo.gif-2 {
+    left: 0;
+    top: 10%;
+  }
+
+  /* Bishal code stated */
+
+  /* why zally page start */
+  .smooth--section--content {
+    gap: 20px;
+  }
+
+  .vertical-scroll-frame-right {
+    padding: 0 12px;
+    width: 100%;
+  }
+
+  .common-small-scroll-box,
+  .common-small-scroll-box.why-zally-box {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding-bottom: 40px;
+  }
+
+  .why-zally-box-title {
+    color: var(--navy--blue, #14012C);
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+  }
+
+  .why-zally-box-title .currency {
+    font-size: 25px;
+  }
+
+  .why-zally-box-title .value-point {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    line-height: 22px;
+  }
+
+  .vertical-section-text {
+    color: var(--navy--blue);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 30px;
+  }
+
+  .second-frame-container-business {
+    padding: 0 12px;
+  }
+
+  .bi-for-humans-left.why-zally-left {
+    width: 100%;
+  }
+
+  .bi-for-humans-right.why-zally-right {
+    width: 100%;
+    padding: 0 12px;
+    justify-content: flex-start;
+  }
+
+  /* why zally page end */
+
+  /* for business and human forms starts */
+
+  .recaptcha-bottom svg {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 15px;
+    top: -17px;
+  }
+
+  /* for business and human forms ends */
+
+  /* for business and humans home starts */
+
+  .bi-gif-logo {
+    animation-play-state: paused;
+    position: unset;
+  }
+
+  /* for business and humans home ends */
+
+  /* how it works business and humans starts */
+  .get-the-app-why-zally-box--two--detect {
+    width: 100%;
+  }
+  .detect-user-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.get-the-app-why-zally-box--two--bottom-box {
+
+  padding: 13px;
+  gap: 12px;
+  border-radius: 16px;
+
+
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 30px;
+}
+.vertical-scroll-frame-left.how-does-zally {
+  min-width: 100% !important;
+  margin-right: 0px;
+}
+.vertical-scroll-frame-right.how-does-zally {
+  margin-right: 0px;
+}
+  /* how it works business and humans starts */
+
+  /* contact download */
+  .sl-contact-section, .sl-download-section, .sl-faqs-section {
+    padding-top: 80px;
+  }
+
+
+
+  .event-page-counter-container{
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+.event-counter-box{
+  width: 100%;
+  border-radius: 15px;
+  height: fit-content;
+  padding: 20px;
+}
+
+}
