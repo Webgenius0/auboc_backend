@@ -7,6 +7,7 @@ use App\Http\Controllers\Web\Backend\CMS\HomePage\HomePageController;
 use App\Http\Controllers\Web\Backend\CMS\HumansHomePage\HumanPageController;
 use App\Http\Controllers\Web\Backend\CMS\WhyZally\WhyZallyPageController;
 use App\Http\Controllers\Web\Backend\CMS\HowItWorksBusiness\HowItWorksBusinessController;
+use App\Http\Controllers\Web\Backend\CMS\ServicePage\ServicePageController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -14,9 +15,28 @@ Route::middleware('auth')->group(function () {
 
     //!Route for HomePageController
     Route::controller(HomePageController::class)->group(function () {
-        Route::get('/cms/home-page/home-section', 'homeSection')->name('cms.home-page.home-section');
+        Route::get('/cms/home-page/home-section-text', 'homeSection')->name('cms.home-page.home-section-text');
         Route::patch('/cms/home-page/home-section', 'storeHomeSection')->name('cms.home-page.home-section.update');
     });
+
+
+    //! Route for ServicePageController
+    // Route::controller(ServicePageController::class)->group(function () {
+    //     Route::get('/cms/service-page/service-section', 'serviceSection')->name('cms.service-page.service-section');
+    //     Route::patch('/cms/service-page/service-section', 'storeServiceSection')->name('cms.service-page.service-section.update');
+    // });
+
+
+
+    Route::controller(ServicePageController::class)->group(function () {
+        Route::get('/cms/service-page/{section}', 'serviceSection')->name('cms.service-page.section');
+        Route::patch('/cms/service-page/{section}', 'storeServiceSection')->name('cms.service-page.section.update');
+    });
+
+    
+
+
+
 
     //!Route for BusinessPageController
     Route::controller(BusinessPageController::class)->group(function () {

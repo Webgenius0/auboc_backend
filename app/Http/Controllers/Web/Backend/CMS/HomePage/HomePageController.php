@@ -37,8 +37,6 @@ class HomePageController extends Controller
         $request->validate([
             'title' => 'nullable',
             'sub_title' => 'nullable',
-            'button_text' => 'nullable',
-            'sub_button_text' => 'nullable',
         ]);
 
 
@@ -54,8 +52,6 @@ class HomePageController extends Controller
             [
                 'title' => $request->title,
                 'sub_title' => $request->sub_title,
-                'button_text' => $request->button_text,
-                'sub_button_text' => $request->sub_button_text,
             ]
         );
 

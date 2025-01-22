@@ -13,6 +13,13 @@ final class Page extends Enum
 {
     const HomePage = 'home_page';
 
+    const ServicePage = 'service_page';
+
+
+
+
+
+
     const BusinessPage = 'business_page';
     const BusinessFormPage = 'business_form_page';
 
