@@ -82,15 +82,15 @@
                                     </div>
 
                                     <div class="mb-3">
-                                        <label class="col-form-label pt-0" for="description">Description :</label>
-                                        <textarea name="description" id="description" class="form-control @error('description') is-invalid @enderror"
-                                            placeholder="description" cols="30" rows="10">
-                                            {{ old('description', $data[0]->description ?? '') }}
-                                        </textarea>
-                                        @error('description')
+                                        <label class="col-form-label pt-0" for="sub_title">Sub Title :</label>
+                                        <input type="text" class="form-control @error('sub_title') is-invalid @enderror"
+                                            placeholder="Sub Title" name="sub_title" value="{{ $data[0]->sub_title ?? '' }}">
+                                        @error('sub_title')
                                             <div style="color: red;">{{ $message }}</div>
                                         @enderror
                                     </div>
+
+
 
                                     <div class="mb-3">
                                         <label class="col-form-label pt-0">Image:</label>
@@ -144,16 +144,13 @@
                                     </div>
 
                                     <div class="mb-3">
-                                        <label class="col-form-label pt-0" for="description">Description :</label>
-                                        <textarea name="description" id="description" class="form-control @error('description') is-invalid @enderror"
-                                            placeholder="description" cols="30" rows="10">
-                                            {{ old('description', $data[1]->description ?? '') }}
-                                        </textarea>
-                                        @error('description')
+                                        <label class="col-form-label pt-0" for="sub_title">Sub Title :</label>
+                                        <input type="text" class="form-control @error('sub_title') is-invalid @enderror"
+                                            placeholder="Sub Title" name="sub_title" value="{{ $data[1]->sub_title ?? '' }}">
+                                        @error('sub_title')
                                             <div style="color: red;">{{ $message }}</div>
                                         @enderror
                                     </div>
-
 
                                     <div class="mb-3">
                                         <label class="col-form-label pt-0">Image:</label>
@@ -207,15 +204,15 @@
                                     </div>
 
                                     <div class="mb-3">
-                                        <label class="col-form-label pt-0" for="description">Description :</label>
-                                        <textarea name="description" id="description" class="form-control @error('description') is-invalid @enderror"
-                                            placeholder="description" cols="30" rows="10">
-                                            {{ old('description', $data[2]->description ?? '') }}
-                                        </textarea>
-                                        @error('description')
+                                        <label class="col-form-label pt-0" for="sub_title">Sub Title :</label>
+                                        <input type="text" class="form-control @error('sub_title') is-invalid @enderror"
+                                            placeholder="Sub Title" name="sub_title" value="{{ $data[2]->sub_title ?? '' }}">
+                                        @error('sub_title')
                                             <div style="color: red;">{{ $message }}</div>
                                         @enderror
                                     </div>
+
+
 
                                     <div class="mb-3">
                                         <label class="col-form-label pt-0">Image:</label>

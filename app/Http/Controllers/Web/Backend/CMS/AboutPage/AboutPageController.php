@@ -29,7 +29,7 @@ class AboutPageController extends Controller
     {
         $request->validate([
             'title' => 'nullable',
-            'description' => 'nullable',
+            'sub_title' => 'nullable',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:4048',
         ]);
 
@@ -63,7 +63,7 @@ class AboutPageController extends Controller
             ],
             [
                 'title' => $request->title,
-                'description' => strip_tags($request->description),
+                'sub_title' => strip_tags($request->sub_title),
                 'image' => $featuredImage,
             ]
         );
@@ -111,7 +111,7 @@ class AboutPageController extends Controller
             $data = $getData->update(
                 [
                     'title' => $request->title,
-                    'description' => strip_tags($request->description),
+                    'sub_title' => strip_tags($request->sub_title),
                     'image' => $featuredImage,
                 ]
             );
@@ -121,7 +121,7 @@ class AboutPageController extends Controller
                     'page' => Page::AboutPage,
                     'section' => Section::AboutSection,
                     'title' => $request->title,
-                    'description' => strip_tags($request->description),
+                    'sub_title' => strip_tags($request->sub_title),
                     'image' => $featuredImage,
 
                 ],
@@ -170,7 +170,7 @@ class AboutPageController extends Controller
             $data = $getData->update(
                 [
                     'title' => $request->title,
-                    'description' => strip_tags($request->description),
+                    'sub_title' => strip_tags($request->sub_title),
                     'image' => $featuredImage,
                 ]
             );
@@ -180,7 +180,7 @@ class AboutPageController extends Controller
                     'page' => Page::AboutPage,
                     'section' => Section::AboutSection,
                     'title' => $request->title,
-                    'description' => strip_tags($request->description),
+                    'sub_title' => strip_tags($request->sub_title),
                     'image' => $featuredImage,
 
                 ],
