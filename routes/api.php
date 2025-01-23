@@ -9,6 +9,10 @@ use App\Http\Controllers\API\ProductPaginationController;
 use App\Http\Controllers\API\ReviewController;
 use App\Http\Controllers\API\SocialLinkController;
 use App\Http\Controllers\API\CartController;
+use App\Http\Controllers\API\Cms\AboutPageController;
+use App\Http\Controllers\API\Cms\BlogPageController;
+use App\Http\Controllers\API\Cms\HomePageController;
+use App\Http\Controllers\API\Cms\ServicePageController;
 use App\Http\Controllers\API\NewsletterController;
 use Illuminate\Support\Facades\Route;
 
@@ -25,6 +29,14 @@ Route::post('/verify-otp', [AuthController::class, 'verifyOtp']);
 Route::post('forgot-password', [ResetPasswordController::class, 'forgotPassword']);
 Route::post('verify-otp', [ResetPasswordController::class, 'verifyOtp']);
 Route::post('reset-password', [ResetPasswordController::class, 'resetPassword']);
+
+
+
+//!! Route for HomePageController Cms
+Route::get('/home-page/hero', [HomePageController::class, 'heroSection']);
+Route::get('/about-page/about-us', [AboutPageController::class, 'aboutSection']);
+Route::get('/blog-page/blog', [BlogPageController::class, 'blogSection']);
+Route::get('/service-page/service', [ServicePageController::class, 'serviceSection']);
 
 
 
@@ -45,7 +57,7 @@ Route::get('product/show/{id}', [ProductController::class, 'show']);
 Route::get('/product-show/{id}', [ProductController::class, 'showWithReviews']);
 Route::get('/products/reviews/{productId}', [ProductController::class, 'getReviews']);
 
-Route::get('/products/pagination', [ProductPaginationController::class, 'index']);
+// Route::get('/products/pagination', [ProductPaginationController::class, 'index']);
 
 
 
@@ -54,12 +66,12 @@ Route::get('/products/pagination', [ProductPaginationController::class, 'index']
 Route::middleware('auth:api')->group(function () {
 
     // Cart Routes
-    Route::post('/cart/add', [CartController::class, 'addToCart']);
-    Route::post('/cart/update', [CartController::class, 'updateCart']);
-    Route::post('/cart/increase', [CartController::class, 'quantityUpdate']);
-    Route::post('/cart/decrease', [CartController::class, 'quantityMinus']);
-    Route::post('/cart/remove', [CartController::class, 'removeFromCart']);
-    Route::get('/cart/view', [CartController::class, 'viewCart']);
+    // Route::post('/cart/add', [CartController::class, 'addToCart']);
+    // Route::post('/cart/update', [CartController::class, 'updateCart']);
+    // Route::post('/cart/increase', [CartController::class, 'quantityUpdate']);
+    // Route::post('/cart/decrease', [CartController::class, 'quantityMinus']);
+    // Route::post('/cart/remove', [CartController::class, 'removeFromCart']);
+    // Route::get('/cart/view', [CartController::class, 'viewCart']);
 
 
 

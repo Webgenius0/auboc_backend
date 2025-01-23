@@ -54,12 +54,12 @@
                                     <li><a class="{{ Request::routeIs('cms.home-page.home-section-text') ? 'active' : ' ' }}"
                                         href="{{ route('cms.home-page.home-section-text') }}">Hero Banner text</a></li>
 
-                                        <li>
+                                        {{-- <li>
                                             <a class="{{ Request::routeIs('cms.service-page.section') ? 'active' : '' }}"
                                                href="{{ route('cms.service-page.section', ['section' => 'Service Section']) }}">
                                                 Our Service
                                             </a>
-                                        </li>
+                                        </li> --}}
 
                                 </ul>
                             </li>
@@ -75,6 +75,20 @@
                                         <a class="{{ Request::routeIs('cms.blog-page.section') ? 'active' : '' }}"
                                             href="{{ route('cms.blog-page.section', ['section' => 'Blog Section']) }}">
                                                 Our Blogs
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            {{-- Service Page --}}
+                            <li><a class="submenu-title {{ Request::routeIs('cms.service-page.*') ? 'active open' : '' }}"
+                                href="javascript:void(0)">Service Page<span class="sub-arrow"><i
+                                        class="fa fa-angle-right"></i></span></a>
+                                <ul class="nav-sub-childmenu submenu-content">
+                                    <li>
+                                        <a class="{{ Request::routeIs('cms.service-page.section') ? 'active' : '' }}"
+                                            href="{{ route('cms.service-page.section', ['section' => 'service Section']) }}">
+                                                Our Services
                                         </a>
                                     </li>
                                 </ul>
@@ -98,7 +112,7 @@
                         </ul>
                     </li>
 
-                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
+                    {{-- <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
                             class="sidebar-link sidebar-title {{ Request::routeIs('category.*') ? 'active open' : ' ' }}"
                             href="javascript:void(0)"><i data-feather="box"></i><span>Category</span></a>
                         <ul class="sidebar-submenu">
@@ -119,8 +133,6 @@
                     </li>
 
 
-
-                    {{-- this is for contact --}}
                     <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
                             class="sidebar-link sidebar-title {{ Request::routeIs('contact.*') ? 'active open' : ' ' }}"
                             href="javascript:void(0)"><i data-feather="phone"></i><span>Contacts</span></a>
@@ -131,8 +143,6 @@
                     </li>
 
 
-
-                    {{-- this is for newsletter subscription --}}
                     <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
                             class="sidebar-link sidebar-title {{ Request::routeIs('subscription.*') ? 'active open' : ' ' }}"
                             href="javascript:void(0)"><i data-feather="mail"></i><span>Subscriptions</span></a>
@@ -143,7 +153,6 @@
                     </li>
 
 
-                    {{-- this is for social-links --}}
                     <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
                             class="sidebar-link sidebar-title {{ Request::routeIs('social-links') ? 'active open' : ' ' }}"
                             href="javascript:void(0)"><i data-feather="zap"></i><span>Social</span></a>
@@ -151,7 +160,7 @@
                             <li><a class="{{ Request::routeIs('social-links') ? 'active' : ' ' }}"
                                     href="{{ route('social-links') }}">Social Links</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
 
 
                     <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
