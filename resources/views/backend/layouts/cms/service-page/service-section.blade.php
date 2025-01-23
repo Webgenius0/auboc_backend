@@ -40,13 +40,13 @@
         <div class="page-title">
             <div class="row">
                 <div class="col-sm-6">
-                    <h3>{{ ucfirst($section) }} Feature</h3>
+                    <h3>{{ ucfirst($section) }}</h3>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="{{ route('dashboard') }}"><i data-feather="service"></i></a></li>
                         <li class="breadcrumb-item"> Form Layout</li>
-                        <li class="breadcrumb-item active">{{ ucfirst($section) }} Feature</li>
+                        <li class="breadcrumb-item active">{{ ucfirst($section) }}</li>
                     </ol>
                 </div>
             </div>

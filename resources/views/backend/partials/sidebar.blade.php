@@ -54,35 +54,45 @@
                                     <li><a class="{{ Request::routeIs('cms.home-page.home-section-text') ? 'active' : ' ' }}"
                                         href="{{ route('cms.home-page.home-section-text') }}">Hero Banner text</a></li>
 
-                                    {{-- <li><a class="{{ Request::routeIs('cms.service-page.section') ? 'active' : ' ' }}"
-                                        href="{{ route('cms.service-page.section') }}">Our Service</a></li> --}}
-
-
                                         <li>
                                             <a class="{{ Request::routeIs('cms.service-page.section') ? 'active' : '' }}"
-                                               href="{{ route('cms.service-page.section', ['section' => 'ServiceSectionOne']) }}">
+                                               href="{{ route('cms.service-page.section', ['section' => 'Service Section']) }}">
                                                 Our Service
                                             </a>
                                         </li>
-
-                                    {{-- <li><a class="{{ Request::routeIs('cms.home-page.about') ? 'active' : ' ' }}"
-                                            href="{{ route('cms.home-page.about') }}">About Us</a></li> --}}
 
                                 </ul>
                             </li>
                             {{-- home page end --}}
 
-                            {{-- Blog page blog menu --}}
-                            {{-- <li><a class="submenu-title {{ Request::routeIs('cms.blog_cms.*') ? 'active open' : '' }}"
-                                    href="javascript:void(0)">Blog Page<span class="sub-arrow"><i
-                                            class="fa fa-angle-right"></i></span></a>
-                                <ul class="nav-sub-childmenu submenu-content">
-                                    <li><a class="{{ Request::routeIs('cms.blog_cms.blogmaster') ? 'active' : ' ' }}"
-                                            href="{{ route('cms.blog_cms.blogmaster') }}">Hero Banner</a></li>
-                                </ul>
-                            </li> --}}
-                            {{-- Blog page end --}}
 
+                            {{-- Blog Page --}}
+                            <li><a class="submenu-title {{ Request::routeIs('cms.blog-page.*') ? 'active open' : '' }}"
+                                href="javascript:void(0)">Blog Page<span class="sub-arrow"><i
+                                        class="fa fa-angle-right"></i></span></a>
+                                <ul class="nav-sub-childmenu submenu-content">
+                                    <li>
+                                        <a class="{{ Request::routeIs('cms.blog-page.section') ? 'active' : '' }}"
+                                            href="{{ route('cms.blog-page.section', ['section' => 'Blog Section']) }}">
+                                                Our Blogs
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            {{-- About Page --}}
+                            <li><a class="submenu-title {{ Request::routeIs('cms.about-page.*') ? 'active open' : '' }}"
+                                href="javascript:void(0)">About Page<span class="sub-arrow"><i
+                                        class="fa fa-angle-right"></i></span></a>
+                                <ul class="nav-sub-childmenu submenu-content">
+                                    <li>
+                                        <a class="{{ Request::routeIs('cms.about-page.section') ? 'active' : '' }}"
+                                            href="{{ route('cms.about-page.section', ['section' => 'About Section']) }}">
+                                                About Us
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
 
 
                         </ul>

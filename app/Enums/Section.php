@@ -12,22 +12,26 @@ use BenSampo\Enum\Enum;
 final class Section extends Enum
 {
     //Home-page
-    const HomeSection = 'home_section';
+    const HomeSection           = 'home_section';
 
     //! Service page
-    const ServiceSectionOne = 'service_section_one';
-    const ServiceSectionTwo = 'service_section_two';
-    const ServiceSectionThree = 'service_section_three';
-    const ServiceSectionFour = 'service_section_four';
-    const ServiceSectionFive = 'service_section_five';
+    const ServiceSectionOne     = 'service_section_one';
+    const ServiceSectionTwo     = 'service_section_two';
+    const ServiceSectionThree   = 'service_section_three';
+    const ServiceSectionFour    = 'service_section_four';
+    const ServiceSectionFive    = 'service_section_five';
 
 
-    //Business page
+    //!! Blog page
+    const BlogSection           = 'blog_section';
 
-    const SectionOne = 'section_one';
-    const SectionTwo = 'section_two';
-    const SectionThree = 'section_three';
-    const SectionFour = 'section_four';
-    const SectionFive = 'section_five';
+    // const BlogSectionTwo        = 'blog_section_two';
+    // const BlogSectionThree      = 'blog_section_three';
+    // const BlogSectionFour       = 'blog_section_four';
+    // const BlogSectionFive       = 'blog_section_five';
+
+
+    //!! About page
+    const AboutSection          = 'about_section';
 
 }
