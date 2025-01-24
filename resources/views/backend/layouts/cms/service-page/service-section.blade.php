@@ -391,6 +391,68 @@
             </div>
         </div>
 
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-header pb-0">
+                                <h4>Service Four</h4>
+                            </div>
+                            <div class="card-body">
+                                <form class="theme-form" action="{{ route('cms.service-page.section.item-two.update') }}"
+                                    method="post" enctype="multipart/form-data">
+                                    @csrf
+
+                                    @method('PATCH')
+
+
+                                    <div class="mb-3">
+                                        <label class="col-form-label pt-0" for="title">Title :</label>
+                                        <input type="text" class="form-control @error('title') is-invalid @enderror"
+                                            placeholder="Title" name="title" value="{{ $data[3]->title ?? '' }}">
+                                        @error('title')
+                                            <div style="color: red;">{{ $message }}</div>
+                                        @enderror
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="col-form-label pt-0" for="description">Description :</label>
+                                        <textarea name="description" id="description" class="form-control @error('description') is-invalid @enderror"
+                                            placeholder="description" cols="30" rows="10">
+                                            {{ old('description', $data[3]->description ?? '') }}
+                                        </textarea>
+                                        @error('description')
+                                            <div style="color: red;">{{ $message }}</div>
+                                        @enderror
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="col-form-label pt-0">Image:</label>
+                                        <input class="form-control dropify @error('image') is-invalid @enderror"
+                                            type="file"
+                                            data-default-file="{{ !empty($data[3]->image) ? asset($data[2]->image) : '' }}"
+                                            name="image">
+
+                                        @error('image')
+                                            <div style="color: red;">{{ $message }}</div>
+                                        @enderror
+                                    </div>
+
+                                    <div class="card-footer text-end">
+                                        <button class="btn btn-primary">Submit</button>
+                                        <a href="{{ route('cms.service-page.section') }}" class="btn btn-warning">Cancel</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <!-- Container-fluid Ends-->
 

@@ -197,4 +197,63 @@ class AboutPageController extends Controller
         }
     }
 
+
+    public function storeaboutFeatureItemThree(Request $request)
+    {
+        $request->validate([
+            'title' => 'nullable',
+            'sub_title' => 'nullable',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:4048',
+        ]);
+        $getData = CMS::where('page', Page::AboutPage)->where('section', Section::AboutSection)->skip(2)->first();
+
+        // Check Image Update
+        // Handle image upload and replacement if a new image is provided
+
+        if ($request->hasFile('image')) {
+            // Remove old image if it exists
+            if ($getData) {
+                $oldImagePath = $getData->image;
+                if ($oldImagePath && File::exists(public_path($oldImagePath))) {
+                    File::delete(public_path($oldImagePath));
+                }
+            }
+
+            $featuredImage = Helper::fileUpload( $request->file( 'image' ), 'cms-image', $request->image);
+        }else{
+
+            $featuredImage = $getData ? $getData->image : null;
+        }
+
+        if ($getData){
+            $data = $getData->update(
+                [
+                    'title' => $request->title,
+                    'sub_title' => strip_tags($request->sub_title),
+                    'image' => $featuredImage,
+                ]
+            );
+        }else{
+            $data = CMS::create(
+                [
+                    'page' => Page::AboutPage,
+                    'section' => Section::AboutSection,
+                    'title' => $request->title,
+                    'sub_title' => strip_tags($request->sub_title),
+                    'image' => $featuredImage,
+
+                ],
+            );
+        }
+
+        if ($data)
+        {
+            return redirect()->back()->with('notify-success', 'Data Updated Successfully');
+        }
+        else
+        {
+            return redirect()->back()->with('notify-warning', 'Data Update Failed');
+        }
+    }
+
 }
