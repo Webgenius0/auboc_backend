@@ -402,7 +402,7 @@
                                 <h4>Service Four</h4>
                             </div>
                             <div class="card-body">
-                                <form class="theme-form" action="{{ route('cms.service-page.section.item-two.update') }}"
+                                <form class="theme-form" action="{{ route('cms.service-page.section.item-three.update') }}"
                                     method="post" enctype="multipart/form-data">
                                     @csrf
 
@@ -412,7 +412,7 @@
                                     <div class="mb-3">
                                         <label class="col-form-label pt-0" for="title">Title :</label>
                                         <input type="text" class="form-control @error('title') is-invalid @enderror"
-                                            placeholder="Title" name="title" value="{{ $data[3]->title ?? '' }}">
+                                            placeholder="Title" name="title" value="{{ $data[4]->title ?? '' }}">
                                         @error('title')
                                             <div style="color: red;">{{ $message }}</div>
                                         @enderror
@@ -433,7 +433,7 @@
                                         <label class="col-form-label pt-0">Image:</label>
                                         <input class="form-control dropify @error('image') is-invalid @enderror"
                                             type="file"
-                                            data-default-file="{{ !empty($data[3]->image) ? asset($data[2]->image) : '' }}"
+                                            data-default-file="{{ !empty($data[3]->image) ? asset($data[3]->image) : '' }}"
                                             name="image">
 
                                         @error('image')

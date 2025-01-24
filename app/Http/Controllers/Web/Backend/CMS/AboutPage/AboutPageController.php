@@ -189,7 +189,7 @@ class AboutPageController extends Controller
             'sub_title' => 'nullable',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:4048',
         ]);
-        $getData = CMS::where('page', Page::AboutPage)->where('section', Section::AboutSection)->skip(2)->first();
+        $getData = CMS::where('page', Page::AboutPage)->where('section', Section::AboutSection)->skip(3)->first();
 
         //!! Check Image Update
         //!! Handle image upload and replacement if a new image is provided

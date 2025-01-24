@@ -16,7 +16,7 @@ class ServicePageController extends Controller
 
 
     //! One function for all section
-   /*  public function serviceSection($section)
+    /*  public function serviceSection($section)
     {
         $data = CMS::where('page', Page::ServicePage)->where('section', $section)->first();
         return view('backend.layouts.cms.service-page.service-section', compact('data', 'section'));
@@ -95,8 +95,8 @@ class ServicePageController extends Controller
             }
 
             // Generate a random string and store new image
-            $featuredImage = Helper::fileUpload( $request->file( 'image' ), 'cms-image', $request->image);
-        }else{
+            $featuredImage = Helper::fileUpload($request->file('image'), 'cms-image', $request->image);
+        } else {
             $featuredImage = $data ? $data->image : null;
         }
 
@@ -113,12 +113,9 @@ class ServicePageController extends Controller
             ]
         );
 
-        if ($data)
-        {
+        if ($data) {
             return redirect()->back()->with('notify-success', 'Data Updated Successfully');
-        }
-        else
-        {
+        } else {
             return redirect()->back()->with('notify-warning', 'Data Update Failed');
         }
     }
@@ -146,13 +143,13 @@ class ServicePageController extends Controller
                 }
             }
 
-            $featuredImage = Helper::fileUpload( $request->file( 'image' ), 'cms-image', $request->image);
-        }else{
+            $featuredImage = Helper::fileUpload($request->file('image'), 'cms-image', $request->image);
+        } else {
 
             $featuredImage = $getData ? $getData->image : null;
         }
 
-        if ($getData){
+        if ($getData) {
             $data = $getData->update(
                 [
                     'title' => $request->title,
@@ -160,7 +157,7 @@ class ServicePageController extends Controller
                     'image' => $featuredImage,
                 ]
             );
-        }else{
+        } else {
             $data = CMS::create(
                 [
                     'page' => Page::ServicePage,
@@ -173,12 +170,9 @@ class ServicePageController extends Controller
             );
         }
 
-        if ($data)
-        {
+        if ($data) {
             return redirect()->back()->with('notify-success', 'Data Updated Successfully');
-        }
-        else
-        {
+        } else {
             return redirect()->back()->with('notify-warning', 'Data Update Failed');
         }
     }
@@ -205,13 +199,13 @@ class ServicePageController extends Controller
                 }
             }
 
-            $featuredImage = Helper::fileUpload( $request->file( 'image' ), 'cms-image', $request->image);
-        }else{
+            $featuredImage = Helper::fileUpload($request->file('image'), 'cms-image', $request->image);
+        } else {
 
             $featuredImage = $getData ? $getData->image : null;
         }
 
-        if ($getData){
+        if ($getData) {
             $data = $getData->update(
                 [
                     'title' => $request->title,
@@ -219,7 +213,7 @@ class ServicePageController extends Controller
                     'image' => $featuredImage,
                 ]
             );
-        }else{
+        } else {
             $data = CMS::create(
                 [
                     'page' => Page::ServicePage,
@@ -232,25 +226,22 @@ class ServicePageController extends Controller
             );
         }
 
-        if ($data)
-        {
+        if ($data) {
             return redirect()->back()->with('notify-success', 'Data Updated Successfully');
-        }
-        else
-        {
+        } else {
             return redirect()->back()->with('notify-warning', 'Data Update Failed');
         }
     }
 
 
-    public function storeblogFeatureItemThree(Request $request)
+    public function storeserviceFeatureItemThree(Request $request)
     {
         $request->validate([
             'title' => 'nullable',
             'sub_title' => 'nullable',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:4048',
         ]);
-        $getData = CMS::where('page', Page::ServicePage)->where('section', Section::ServiceSection)->skip(2)->first();
+        $getData = CMS::where('page', Page::ServicePage)->where('section', Section::ServiceSection)->skip(3)->first();
 
         // Check Image Update
         // Handle image upload and replacement if a new image is provided
@@ -264,13 +255,13 @@ class ServicePageController extends Controller
                 }
             }
 
-            $featuredImage = Helper::fileUpload( $request->file( 'image' ), 'cms-image', $request->image);
-        }else{
+            $featuredImage = Helper::fileUpload($request->file('image'), 'cms-image', $request->image);
+        } else {
 
             $featuredImage = $getData ? $getData->image : null;
         }
 
-        if ($getData){
+        if ($getData) {
             $data = $getData->update(
                 [
                     'title' => $request->title,
@@ -278,7 +269,7 @@ class ServicePageController extends Controller
                     'image' => $featuredImage,
                 ]
             );
-        }else{
+        } else {
             $data = CMS::create(
                 [
                     'page' => Page::ServicePage,
@@ -291,15 +282,11 @@ class ServicePageController extends Controller
             );
         }
 
-        if ($data)
-        {
+        if ($data) {
             return redirect()->back()->with('notify-success', 'Data Updated Successfully');
-        }
-        else
-        {
+        } else {
             return redirect()->back()->with('notify-warning', 'Data Update Failed');
         }
     }
-
 
 }

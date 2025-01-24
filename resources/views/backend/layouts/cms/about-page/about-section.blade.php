@@ -249,7 +249,7 @@
                                 <h4>About Four</h4>
                             </div>
                             <div class="card-body">
-                                <form class="theme-form" action="{{ route('cms.about-page.section.item-two.update') }}"
+                                <form class="theme-form" action="{{ route('cms.about-page.section.item-three.update') }}"
                                     method="post" enctype="multipart/form-data">
                                     @csrf
 
@@ -278,7 +278,7 @@
                                         <label class="col-form-label pt-0">Image:</label>
                                         <input class="form-control dropify @error('image') is-invalid @enderror"
                                             type="file"
-                                            data-default-file="{{ !empty($data[3]->image) ? asset($data[2]->image) : '' }}"
+                                            data-default-file="{{ !empty($data[3]->image) ? asset($data[3]->image) : '' }}"
                                             name="image">
 
                                         @error('image')

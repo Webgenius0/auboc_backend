@@ -42,6 +42,7 @@ Route::middleware('auth')->group(function () {
         Route::patch('/cms/service-page/service-feature', 'storeserviceFeature')->name('cms.service-page.section.update');
         Route::patch('/cms/service-page/service-feature/one', 'storeserviceFeatureItemOne')->name('cms.service-page.section.item-one.update');
         Route::patch('/cms/service-page/service-feature/two', 'storeserviceFeatureItemTwo')->name('cms.service-page.section.item-two.update');
+        Route::patch('/cms/service-page/service-feature/three', 'storeserviceFeatureItemThree')->name('cms.service-page.section.item-three.update');
     });
 
 
@@ -52,8 +53,7 @@ Route::middleware('auth')->group(function () {
         Route::patch('/cms/blog-page/blog-feature', 'storeblogFeature')->name('cms.blog-page.section.update');
         Route::patch('/cms/blog-page/blog-feature/one', 'storeblogFeatureItemOne')->name('cms.blog-page.section.item-one.update');
         Route::patch('/cms/blog-page/blog-feature/two', 'storeblogFeatureItemTwo')->name('cms.blog-page.section.item-two.update');
-        Route::patch('/cms/blog-page/blog-feature/two', 'storeblogFeatureItemThree')->name('cms.blog-page.section.item-two.update');
-
+        Route::patch('/cms/blog-page/blog-feature/three', 'storeblogFeatureItemThree')->name('cms.blog-page.section.item-two.update');
     });
 
     //! Route for AboutPageController CMS
@@ -63,8 +63,7 @@ Route::middleware('auth')->group(function () {
         Route::patch('/cms/about-page/about-feature', 'storeaboutFeature')->name('cms.about-page.section.update');
         Route::patch('/cms/about-page/about-feature/one', 'storeaboutFeatureItemOne')->name('cms.about-page.section.item-one.update');
         Route::patch('/cms/about-page/about-feature/two', 'storeaboutFeatureItemTwo')->name('cms.about-page.section.item-two.update');
-        Route::patch('/cms/about-page/about-feature/two', 'storeaboutFeatureItemThree')->name('cms.about-page.section.item-two.update');
-
+        Route::patch('/cms/about-page/about-feature/three', 'storeaboutFeatureItemThree')->name('cms.about-page.section.item-three.update');
     });
 
 
