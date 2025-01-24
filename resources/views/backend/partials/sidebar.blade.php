@@ -109,6 +109,9 @@
                             </li>
 
 
+
+
+
                         </ul>
                     </li>
 
@@ -119,18 +122,18 @@
                             <li><a class="{{ Request::routeIs('category.index') ? 'active' : ' ' }}"
                                     href="{{ route('category.index') }}">Category Details</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
 
 
 
-                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
+                    {{-- <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
                             class="sidebar-link sidebar-title {{ Request::routeIs('product.*') ? 'active open' : ' ' }}"
                             href="javascript:void(0)"><i data-feather="shopping-bag"></i><span>Products</span></a>
                         <ul class="sidebar-submenu">
                             <li><a class="{{ Request::routeIs('product.index') ? 'active' : ' ' }}"
                                     href="{{ route('product.index') }}">Product List</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
 
 
                     <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
@@ -143,17 +146,17 @@
                     </li>
 
 
-                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
+                    {{-- <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
                             class="sidebar-link sidebar-title {{ Request::routeIs('subscription.*') ? 'active open' : ' ' }}"
                             href="javascript:void(0)"><i data-feather="mail"></i><span>Subscriptions</span></a>
                         <ul class="sidebar-submenu">
                             <li><a class="{{ Request::routeIs('subscription.index') ? 'active' : ' ' }}"
                                     href="{{ route('subscription.index') }}">Subscription List</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
 
 
-                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
+                    {{-- <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
                             class="sidebar-link sidebar-title {{ Request::routeIs('social-links') ? 'active open' : ' ' }}"
                             href="javascript:void(0)"><i data-feather="zap"></i><span>Social</span></a>
                         <ul class="sidebar-submenu">

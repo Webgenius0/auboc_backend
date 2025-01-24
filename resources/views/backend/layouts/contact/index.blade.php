@@ -12,16 +12,18 @@
             <div class="col-sm-12">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title text-primary fw-bold">All Contacts</h4>
+                        <h4 class="card-title text-primary fw-bold text-dark">All Contacts</h4>
                         <p class="card-description text-muted">The contact details below</p>
                         <table id="order-table" class="table table-striped table-bordered" style="width:100%">
-                            <thead class="table-dark">
+                            <thead>
                                 <tr class="text-white">
                                     <th>ID</th>
-                                    <th>First Name</th>
-                                    <th>Last Name</th>
+                                    <th> Name</th>
                                     <th>Email</th>
                                     <th>Phone</th>
+                                    <th>Message</th>
+                                    <th>Country</th>
+                                    <th>Date</th>
                                     <th>Message</th>
                                 </tr>
                             </thead>
@@ -29,10 +31,13 @@
                                 @foreach ($contacts as $contact)
                                     <tr>
                                         <td>{{ $contact->id }}</td>
-                                        <td>{{ $contact->first_name }}</td>
-                                        <td>{{ $contact->last_name }}</td>
+                                        <td>{{ $contact->name }}</td>
                                         <td>{{ $contact->email }}</td>
                                         <td>{{ $contact->phone }}</td>
+                                        <td>{{ $contact->country }}</td>
+                                        <td>{{ $contact->date }}</td>
+                                        <td>{{ $contact->eircode }}</td>
+
                                         <td>{{ $contact->message }}</td>
                                     </tr>
                                 @endforeach
