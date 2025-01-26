@@ -54,13 +54,8 @@
                                     <li><a class="{{ Request::routeIs('cms.home-page.home-section-text') ? 'active' : ' ' }}"
                                         href="{{ route('cms.home-page.home-section-text') }}">Hero Banner text</a></li>
 
-                                        {{-- <li>
-                                            <a class="{{ Request::routeIs('cms.service-page.section') ? 'active' : '' }}"
-                                               href="{{ route('cms.service-page.section', ['section' => 'Service Section']) }}">
-                                                Our Service
-                                            </a>
-                                        </li> --}}
-
+                                    <li><a class="{{ Request::routeIs('cms.home-page.section') ? 'active' : ' ' }}"
+                                        href="{{ route('cms.home-page.section') }}">Hero Images</a></li>
                                 </ul>
                             </li>
                             {{-- home page end --}}

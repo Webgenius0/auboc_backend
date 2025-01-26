@@ -2,12 +2,7 @@
 
 use App\Http\Controllers\Web\Backend\CMS\AboutPage\AboutPageController;
 use App\Http\Controllers\Web\Backend\CMS\BlogPage\BlogPageController;
-use App\Http\Controllers\Web\Backend\CMS\BusinessHomePage\BusinessPageController;
-use App\Http\Controllers\Web\Backend\CMS\GetTheApp\GetTheAppController;
 use App\Http\Controllers\Web\Backend\CMS\HomePage\HomePageController;
-use App\Http\Controllers\Web\Backend\CMS\HumansHomePage\HumanPageController;
-use App\Http\Controllers\Web\Backend\CMS\WhyZally\WhyZallyPageController;
-use App\Http\Controllers\Web\Backend\CMS\HowItWorksBusiness\HowItWorksBusinessController;
 use App\Http\Controllers\Web\Backend\CMS\ServicePage\ServicePageController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,6 +13,14 @@ Route::middleware('auth')->group(function () {
     Route::controller(HomePageController::class)->group(function () {
         Route::get('/cms/home-page/home-section-text', 'homeSection')->name('cms.home-page.home-section-text');
         Route::patch('/cms/home-page/home-section', 'storeHomeSection')->name('cms.home-page.home-section.update');
+
+        //!Route for home page hero images
+        Route::get('/cms/home-page/home-feature', 'homeSectionImage')->name('cms.home-page.section');
+        Route::patch('/cms/home-page/home-feature', 'homeSectionImageOne')->name('cms.home-page.section.item-one.update');
+        Route::patch('/cms/home-page/home-feature/one', 'homeSectionImageTwo')->name('cms.home-page.section.item-two.update');
+        Route::patch('/cms/home-page/home-feature/two', 'homeSectionImageThree')->name('cms.home-page.section.item-three.update');
+        Route::patch('/cms/home-page/home-feature/three', 'homeSectionImageFour')->name('cms.home-page.section.item-four.update');
+        Route::patch('/cms/home-page/home-feature/four', 'homeSectionImageFive')->name('cms.home-page.section.item-five.update');
     });
 
 
@@ -38,12 +41,13 @@ Route::middleware('auth')->group(function () {
 
 
     Route::controller(ServicePageController::class)->group(function () {
+
         Route::get('/cms/service-page/service-feature', 'serviceFeature')->name('cms.service-page.section');
         Route::patch('/cms/service-page/service-feature', 'storeserviceFeature')->name('cms.service-page.section.update');
         Route::patch('/cms/service-page/service-feature/one', 'storeserviceFeatureItemOne')->name('cms.service-page.section.item-one.update');
         Route::patch('/cms/service-page/service-feature/two', 'storeserviceFeatureItemTwo')->name('cms.service-page.section.item-two.update');
         Route::patch('/cms/service-page/service-feature/three', 'storeserviceFeatureItemThree')->name('cms.service-page.section.item-three.update');
-    });
+   });
 
 
     //! Route for BlogPageController CMS
@@ -65,50 +69,6 @@ Route::middleware('auth')->group(function () {
         Route::patch('/cms/about-page/about-feature/two', 'storeaboutFeatureItemTwo')->name('cms.about-page.section.item-two.update');
         Route::patch('/cms/about-page/about-feature/three', 'storeaboutFeatureItemThree')->name('cms.about-page.section.item-three.update');
     });
-
-
-
-
-
-    //!Route for BusinessPageController
-    // Route::controller(BusinessPageController::class)->group(function () {
-    //     Route::get('/cms/business-home-page/section-one', 'sectionOne')->name('cms.business-home-page.section-one');
-    //     Route::patch('/cms/business-home-page/section-one', 'storeSectionOne')->name('cms.business-home-page.section-one.update');
-
-    //     Route::get('/cms/business-home-page/section-two', 'sectionTwo')->name('cms.business-home-page.section-two');
-    //     Route::patch('/cms/business-home-page/section-two', 'storeSectionTwo')->name('cms.business-home-page.section-two.update');
-
-    //     Route::get('/cms/business-home-page/section-three', 'sectionThree')->name('cms.business-home-page.section-three');
-    //     Route::patch('/cms/business-home-page/section-three', 'storeSectionThree')->name('cms.business-home-page.section-three.update');
-
-    //     Route::get('/cms/business-home-page/section-four', 'sectionFour')->name('cms.business-home-page.section-four');
-    //     Route::patch('/cms/business-home-page/section-four', 'storeSectionFour')->name('cms.business-home-page.section-four.update');
-
-    //     Route::get('/cms/business-home-page/section-five', 'sectionFive')->name('cms.business-home-page.section-five');
-    //     Route::patch('/cms/business-home-page/section-five', 'storeSectionFive')->name('cms.business-home-page.section-five.update');
-    // });
-
-
-
-    //!Route for HumanPageController
-    // Route::controller(GetTheAppController::class)->group(function () {
-    //     Route::get('/cms/get-the-app/section-one', 'sectionOne')->name('cms.get-the-app.section-one');
-    //     Route::patch('/cms/get-the-app/section-one', 'storeSectionOne')->name('cms.get-the-app.section-one.update');
-
-    //     Route::get('/cms/get-the-app/section-two', 'sectionTwo')->name('cms.get-the-app.section-two');
-    //     Route::patch('/cms/get-the-app/section-two', 'storeSectionTwo')->name('cms.get-the-app.section-two.update');
-
-    //     Route::get('/cms/get-the-app/section-three', 'sectionThree')->name('cms.get-the-app.section-three');
-    //     Route::patch('/cms/get-the-app/section-three', 'storeSectionThree')->name('cms.get-the-app.section-three.update');
-
-    //     Route::get('/cms/get-the-app/section-four', 'sectionFour')->name('cms.get-the-app.section-four');
-    //     Route::patch('/cms/get-the-app/section-four', 'storeSectionFour')->name('cms.get-the-app.section-four.update');
-
-    //     Route::get('/cms/get-the-app/section-five', 'sectionFive')->name('cms.get-the-app.section-five');
-    //     Route::patch('/cms/get-the-app/section-five', 'storeSectionFive')->name('cms.get-the-app.section-five.update');
-    // });
-
-
 
 
 

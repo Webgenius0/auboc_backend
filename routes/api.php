@@ -32,8 +32,9 @@ Route::post('reset-password', [ResetPasswordController::class, 'resetPassword'])
 
 
 
-//!! Route for HomePageController Cms
+//!! Route for Cms
 Route::get('/home-page/hero', [HomePageController::class, 'heroSection']);
+Route::get('/home-page/hero-image', [HomePageController::class, 'heroSectionImage']);
 Route::get('/about-page/about-us', [AboutPageController::class, 'aboutSection']);
 Route::get('/blog-page/blog', [BlogPageController::class, 'blogSection']);
 Route::get('/service-page/service', [ServicePageController::class, 'serviceSection']);

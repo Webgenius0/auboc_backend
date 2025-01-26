@@ -13,6 +13,8 @@ final class Section extends Enum
 {
     //Home-page
     const HomeSection           = 'home_section';
+    const HomeSectionImage           = 'home_section_image';
+    const ServiceSectionVideo    = 'service_section_video';
     const ServiceSection    = 'service_section';
     const BlogSection           = 'blog_section';
     const AboutSection          = 'about_section';

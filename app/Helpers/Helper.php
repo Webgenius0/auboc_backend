@@ -34,6 +34,7 @@ class Helper
         }
         return null; // Or handle this case as needed
     }
+
     /**
      * Upload a file and return the public path.
      */

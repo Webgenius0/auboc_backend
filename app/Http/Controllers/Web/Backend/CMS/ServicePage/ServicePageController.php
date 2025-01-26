@@ -288,5 +288,4 @@ class ServicePageController extends Controller
             return redirect()->back()->with('notify-warning', 'Data Update Failed');
         }
     }
-
 }
