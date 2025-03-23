@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
     <!-- Container-fluid starts-->
     <div class="container-fluid">
         <div class="row">
@@ -35,7 +35,6 @@
                                     @csrf
 
                                     @method('PATCH')
-
 
                                     <div class="mb-3">
                                         <label class="col-form-label pt-0" for="title">Title :</label>
@@ -57,29 +56,9 @@
                                         @enderror
                                     </div>
 
-                                    <div class="mb-3">
-                                        <label class="col-form-label pt-0">Button Text :</label>
-                                        <input type="text"
-                                               class="form-control @error('button_text') is-invalid @enderror"
-                                               placeholder="Button Text" name="button_text" value="{{ $data->button_text ?? "" }}">
-                                        @error('button_text')
-                                        <div style="color: red;">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label class="col-form-label pt-0">Button Text Two :</label>
-                                        <input type="text"
-                                               class="form-control @error('sub_button_text') is-invalid @enderror"
-                                               placeholder="Button Text" name="sub_button_text" value="{{ $data->sub_button_text ?? "" }}">
-                                        @error('sub_button_text')
-                                        <div style="color: red;">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-
                                     <div class="card-footer text-end">
                                         <button class="btn btn-primary">Submit</button>
-                                        <a href="{{ route('cms.home-page.home-section') }}" class="btn btn-warning">Cancel</a>
+                                        <a href="{{ route('cms.home-page.home-section-text') }}" class="btn btn-warning">Cancel</a>
                                     </div>
                                 </form>
                             </div>

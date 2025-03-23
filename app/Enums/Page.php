@@ -11,18 +11,10 @@ use BenSampo\Enum\Enum;
  */
 final class Page extends Enum
 {
-    const HomePage = 'home_page';
+    const HomePage      = 'home_page';
+    const ServicePage   = 'service_page';
+    const BlogPage      = 'blog_page';
+    const AboutPage     = 'about_page';
 
-    const BusinessPage = 'business_page';
-    const BusinessFormPage = 'business_form_page';
 
-    const HumanPage = 'human_page';
-
-    const HumanFormPage = 'human_form_page';
-
-    const GetTheAppPage = 'get_the_app_page';
-
-    const WhyZallyPage = 'why_zally_page';
-
-    const HowItWorksBusinessPage = 'how_it_works_business_page';
 }

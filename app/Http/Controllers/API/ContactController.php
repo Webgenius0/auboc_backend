@@ -13,11 +13,14 @@ class ContactController extends Controller
     {
         // Validate the incoming request
         $validator = Validator::make($request->all(), [
-            'first_name' => 'required|string|max:255',
-            'last_name' => 'required|string|max:255',
+            'name' => 'required|string|max:255',
             'email' => 'required|email',
-            'phone' => 'required|string|max:20',
+            'phone' => 'required|string',
+            'country' => 'required|string',
+            'date' => 'nullable|date',
+            'eircode' => 'nullable|string',
             'message' => 'required|string',
+
         ], [
             'required' => 'All fields are required.', // Custom message for the 'required' rule
         ]);
@@ -32,7 +35,7 @@ class ContactController extends Controller
         }
 
         // Save data to the database
-        $contact = Contact::create($request->only(['first_name', 'last_name', 'email', 'phone', 'message']));
+        $contact = Contact::create($request->only(['name',  'email', 'phone', 'message', 'country', 'date', 'eircode']));
 
         // Return a JSON response
         return response()->json([
